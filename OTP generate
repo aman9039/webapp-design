@@ -1,0 +1,6 @@
+// how to generate OTP four digit in js 
+
+var generateOTP = () =>{
+return Math.floor(1000 + Math().random() * 9000)
+}
+console.log("OTP", generateOTP());
